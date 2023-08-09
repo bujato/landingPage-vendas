@@ -1,0 +1,200 @@
+#main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5% 20%;
+}
+
+.caixa {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+
+.header-text {
+    word-wrap: normal;
+    font-size: 32px;
+    width: 290px;
+    font-family: 'Volkhov', serif;
+    margin-bottom: 20%;
+}
+
+.contanier-text {
+    width: 290px;
+    color: #666;
+    font-family: Volkhov;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.img-cake {
+    display: flex;
+    padding: 5%;
+    justify-content: center;
+}
+
+.img-cake .cake {
+    width: 260px;
+    height: 335px;
+    position: relative;
+}
+
+#produtos-vendas {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#produtos-vendas .header-produtos {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.img-protudos-window {
+    display: flex;
+    padding: 7%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 35px;
+    width: 100%;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.img-bolo-no-pote,
+.img-brownie {
+     box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    cursor: pointer;
+}
+
+.img-brownie {
+    background: url(/src/imgs/340593-original.webp) no-repeat center;
+    background-size: cover;
+    color: #fff;
+   
+}
+
+.img-bolo-no-pote {
+    background: url(/src/imgs/sabores-de-bolo-no-pote-mais-vendidos-1200x800.jpg) no-repeat center;
+    background-size: cover;
+    color: #fa7436;
+}
+
+.img-brownie:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #fff;
+}
+
+.img-bolo-no-pote:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: transparent;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: #fa7436;
+}
+
+.img-bolo-no-pote, .img-brownie {
+    display: flex;
+    width: 450px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: aquamarine;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.regiao {
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/* ------------------------- */
+
+#qualidade {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#qualidade img {
+    height: 100%;
+    transition: 0.3s;
+    font-family: 'Volkhov', serif;
+}
+
+.img-banoffee {
+    background: url(/src/imgs/receita-de-banoffee-1-scaled.jpeg) no-repeat center;
+    background-size: cover;
+    height: 450px;
+}
+
+.img-torta {
+    background: url(/src/imgs/torta-de-limao-01-1800x1286.jpg) no-repeat center;
+    background-size: cover;
+    height: 450px;
+}
+
+.compromentimento, .variedade {
+    padding: 20%;
+    word-wrap: break-word;
+    font-weight: 400;
+    background-color: #fa7436;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    height: 450px;
+}
+
+#footer {
+    padding: 10%;
+}
+
+#footer h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    margin-bottom: 5%;
+}
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 700;
+} 
+
+.redes-sociais a {
+    color: inherit;
+}
+
+.facebook, .instagram, .whatsapp {
+    display: flex;
+    width: 80px;
+    height: 80px;
+    background-color: #fefcfb;
+    border-radius: 50%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: #666;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    margin-bottom: 5%;
+}
+
+.instagram {
+    background-color: #fa7436;
+    color: #fff;
+}
+
+.facebook:hover, .instagram:hover, .whatsapp:hover {
+    transform: scale(1.2);
+    box-shadow: #fa7436e2 0px 5px, #fa7436b7 0px 10px,#fa743690 0px 15px;
+    cursor: pointer;
+}
